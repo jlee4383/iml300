@@ -155,13 +155,13 @@ body {
 
 .chelseapigeon {
     position: relative;
-    top: 300px;
+    top: 380px;
     left: 300px;
 }
 
 .waffle {
     position: relative;
-    top: 250px;
+    top: 320px;
     left: 300px;
 }
 
@@ -193,13 +193,13 @@ body {
 .halals {
     position: relative;
     left: 100px;
-    top: 450px;
+    top: 550px;
 }
 
 .pigeon5 {
     position: relative;
     left: 200px;
-    top: 250px;
+    top: 350px;
 }
 
 
@@ -208,6 +208,7 @@ body {
 /*page-6*/
 .bg-6 {
     background-image: url(https://media2.s-nbcnews.com/i/newscms/2016_40/1740751/161007-new-york-chinatown-mn-1030_dd35df8c4dae7c2ca0da3e2d71e183d5.jpg);
+    background-color:#373c4d
 }
 
 .text6 {
@@ -233,6 +234,7 @@ body {
 /*page-7*/
 .bg-7 {
     background-image: url(https://i.insider.com/5cffe3ca6fc9203455013dd2?width=1100&format=jpeg&auto=webp);
+    background-color:#959ca1;
 }
 
 .text7 {
