@@ -1,0 +1,411 @@
+/*sitewide*/
+
+@font-face {
+    font-family: "pigeon_scribblemedium";
+    src: url("fonts/pigeon_scribble-webfont.woff2") format('woff2'),
+        url("fonts/pigeon_scribble-webfont.woff") format('woff');
+    font-weight:normal;
+    font-style: normal;
+}
+
+h1{
+    line-height:0.4;
+}
+h3{
+    line-height: 0.8;
+}
+a:hover {
+    color: white;
+}
+
+p {
+    color: #282f38;
+    font-size: 28px;
+    font-weight:bold;
+    background: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.5px;
+    position: relative;
+    margin: 50px 200px;
+    padding: 2vw;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-color:darkkhaki*/
+    text-align: center;
+    display: grid;
+    height: vh;
+    width: vw;
+    font-family:pigeon_scribblemedium, Didot;
+}
+
+.pigeoncursor{
+    cursor: url("asset/pigeoncursor.png"), auto;
+}
+
+
+
+/*index page*/
+.bg-1 {
+    background-image: url(https://imgs.6sqft.com/wp-content/uploads/2018/08/01103439/WashingtonSquarePark.png);
+}
+
+.maintitle {
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 50px 200px;
+    border: 5px solid darkslategrey;
+    padding: 2vw;
+    position: relative;
+
+}
+
+.center {
+    margin: 10px 200px 110px;
+}
+
+.pigeon1 {
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+
+.compass {
+    position: sticky;
+    bottom: 30px;
+}
+
+.arrow {
+    filter: invert(100%);
+}
+
+.north {
+    background: rgba(255, 255, 255, 0.6);
+    font-size:30px;
+    width: 70px;
+}
+
+.north:hover {
+    background: darkkhaki;
+}
+
+.south {
+    background: rgba(255, 255, 255, 0.6);
+    font-size:30px;
+    width: 70px;
+}
+
+.south:hover {
+    background: cornflowerblue;
+}
+
+
+
+
+/*page-2,3*/
+.bg-2 {
+    /*background-image:url(https://media.giphy.com/media/Pp9W9tuVF5NwQ/giphy.gif);*/
+    background-image: url(https://media.giphy.com/media/TrOMR6REnWN1u/giphy.gif);
+    position: relative;
+    top: 200px;
+}
+
+.foodchoice {
+    color: black;
+    background: transparent;
+    font-size: 30px;
+    bottom: 100px;
+}
+
+.chelsea {
+    width=100px;
+}
+
+.chelsea:hover {
+    background: #ddd569;
+}
+
+.halal:hover {
+    color: white;
+    background: #995309;
+}
+
+.dimsum:hover {
+    background: #bcd25a;
+}
+
+.bagel:hover {
+    background: #cfb985;
+}
+
+
+
+
+/*page-4*/
+.bg-4 {
+    background-image: url(https://media.timeout.com/images/105160348/image.jpg);
+   
+}
+
+.text4 {
+    border: 5px solid #bb7c5d;
+    top: -200px;
+}
+
+.chelseapigeon {
+    position: relative;
+    top: 300px;
+    left: 300px;
+}
+
+.waffle {
+    position: relative;
+    top: 250px;
+    left: 300px;
+}
+
+.highline:hover {
+    background: #8c8c8c;
+}
+
+.GCT:hover {
+    background: darkseagreen;
+}
+
+.eat:hover{
+    opacity: 0;
+}
+
+
+
+/*page-5*/
+.bg-5 {
+    background-image: url(https://tclf.org/sites/default/files/thumbnails/image/NY_NYC_CentralPark_02_Barrett%20Doherty_2015_sig.jpg);
+}
+
+.text5 {
+    border: 5px solid #f386ac;
+    bottom: 300px;
+    left: 150px;
+}
+
+.halals {
+    position: relative;
+    left: 100px;
+    top: 450px;
+}
+
+.pigeon5 {
+    position: relative;
+    left: 200px;
+    top: 250px;
+}
+
+
+
+
+/*page-6*/
+.bg-6 {
+    background-image: url(https://media2.s-nbcnews.com/i/newscms/2016_40/1740751/161007-new-york-chinatown-mn-1030_dd35df8c4dae7c2ca0da3e2d71e183d5.jpg);
+}
+
+.text6 {
+    border: 5px solid #f04928;
+    top: 100px;
+}
+
+.pigeon6 {
+    position: relative;
+    top: 350px;
+    right: 250px;
+}
+
+.dumplings {
+    position: relative;
+    top: 270px;
+    right: 90px;
+}
+
+
+
+
+/*page-7*/
+.bg-7 {
+    background-image: url(https://i.insider.com/5cffe3ca6fc9203455013dd2?width=1100&format=jpeg&auto=webp);
+}
+
+.text7 {
+    border: 5px solid #eeab10;
+}
+
+.pigeon7 {
+    position: relative;
+    top: 300px;
+}
+
+.lox {
+    position: relative;
+    top: 270px;
+    right:-30px;
+}
+
+.SoHo:hover {
+    background: firebrick;
+}
+
+.Midtown:hover {
+    background: coral;
+}
+
+
+
+
+/*page-8*/
+.bg-8 {
+    background-image: url(https://s3.amazonaws.com/fhl-website/content/uploads/2018/06/25194835/gallery_seasons_summer_aerial_iwanbaan.jpg);
+}
+
+
+.text8 {
+    border: 5px solid #156109;
+}
+
+.tt:hover {
+    background: #4081f1;
+}
+
+.ts:hover {
+    background: #885cda;
+}
+
+
+
+
+/*page-9*/
+.bg-9 {
+    background-image: url(https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY4ODE0MzA5NjU1MTkzMDkz/grand-central-terminal-gettyimages-176608565.jpg);
+}
+
+.pigeon9 {
+    position:relative;
+    top: 25px;
+}
+.pigeon9:hover{
+    background-image: url(asset/pigeonfly2.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:98px;
+    top:10px;
+
+}
+
+.text9 {
+    border: 5px solid #357748;
+}
+
+
+
+
+/*page-10*/
+.bg-10 {
+    background-image: url(https://static01.nyt.com/images/2018/11/07/nyregion/00soho/00soho-superJumbo.jpg);
+    color: white;
+    font-size: 60px;
+}
+
+.sohovidup {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.text10 {
+    border: 5px solid #537d87;
+    text-shadow: transparent;
+}
+
+.mt:hover {
+    background: #b8440d;
+}
+
+
+
+
+/*page-11*/
+.bg-11 {
+    background-image: url(https://assets.trump.com/website/business/TRUMPTOWERNY-_721_Fifth_Avenue_1.jpg);
+    color: transparent;
+}
+
+.click {
+    color: white;
+    font-size: 25px;
+    letter-spacing:1px; 
+}
+
+.text11 {
+    border: 5px solid #408195;
+}
+
+
+
+
+/*page-12*/
+.bg-12 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/47/New_york_times_square-terabass.jpg);
+}
+
+.pizzarat {
+    position: sticky;
+    bottom: 200px;
+}
+
+.pigeon12 {
+    position:relative;
+    bottom:70px; 
+}
+.pizza {
+    position:relative;
+    top:140px;
+}
+
+.text12 {
+    border: 5px solid #58d2f8;
+}
+
+.ESB:hover {
+    background: #c360f4;
+}
+
+
+
+
+/*page-13*/
+.bg-13 {
+    background-image: url(https://api.time.com/wp-content/uploads/2015/02/157664943.jpg);
+}
+
+.text13 {
+    border: 5px solid #e72b5d;
+}
+
+
+
+
+/*page-14*/
+.bg-14 {
+    background-image: url(https://cdn.viewing.nyc/assets/media/29f13338a6e7926bf7657ad9bc62bc2c/elements/38d507715883bc6bb26a45e409211702/xl/8e361c5c-1df7-424a-9f77-93020d86efd6_2x.jpg);
+}
+
+.end {
+    border: 5px solid #e96b3e;
+}
+
+.startover:hover {
+    background: #54b4e7;
+}
+.pigeon14:hover{
+    background: url(asset/pigeonfly.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:250px;
+}
