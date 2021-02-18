@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'bray_notesregular';
+    src: url('fonts/bray_notes-webfont.woff2') format('woff2'),
+         url('fonts/bray_notes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+.jennifer{
+    font-size: 60px;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/ba/76/38/ba76386166a96aaeb9ebe182cf7fc46f.jpg);
+    background-size: cover;
+    background-blend-mode: exclusion;
+	background-attachment: fixed;
+    
+    font-family: bray_notesregular, Arial;
+    font-size: 18px;
+    text-align: center;
+}
+
+p{
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.title{
+    background-image: url(https://images.vexels.com/media/users/3/146677/isolated/preview/89dd18addc21a52b8020536603057dfd-green-post-it-note-by-vexels.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.presentation{
+    background-image: url(https://images.vexels.com/media/users/3/146464/isolated/preview/bb70d0b1fc54f52c02360e49570f4103-orange-post-it-page-marker-by-vexels.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 15px;
+}
+
+.projects{
+    background-image: url(https://images.vexels.com/media/users/3/146628/isolated/preview/0f613df3b068c62c8ab2ef9cc8a4c352-blue-post-it-note-by-vexels.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    margin: -30px;
+    
+}
+
+.exercises{
+    background-image: url(https://images.vexels.com/media/users/3/146692/isolated/preview/0dc55938e73bbcfb43cc747082fa5001-pink-post-it-note-by-vexels.png);
+    background-position: center;
+    background-repeat:no-repeat;
+        
+}
+
+.thoughts{
+    background-image: url(https://images.vexels.com/media/users/3/146712/isolated/preview/1e5a7dfae0a860a3c04c2cf758cb3463-yellow-post-it-page-marker-by-vexels.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    line-height: 15px;
+}
