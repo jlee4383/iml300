@@ -29,11 +29,15 @@ p{
     letter-spacing: 2px;
 }
 
+li{
+    text-align: left;
+}
+
 .intro{
     text-align: center;
     letter-spacing: 2px;
 }
-.intro{
+.title{
     background-image: url(https://images.vexels.com/media/users/3/146677/isolated/preview/89dd18addc21a52b8020536603057dfd-green-post-it-note-by-vexels.png);
     background-position: center;
     background-repeat: no-repeat;
