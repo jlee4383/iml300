@@ -33,10 +33,11 @@ p{
     text-align: center;
     letter-spacing: 2px;
 }
-.title{
+.intro{
     background-image: url(https://images.vexels.com/media/users/3/146677/isolated/preview/89dd18addc21a52b8020536603057dfd-green-post-it-note-by-vexels.png);
     background-position: center;
     background-repeat: no-repeat;
+   
 }
 
 .presentation{
@@ -50,7 +51,7 @@ p{
     background-image: url(https://images.vexels.com/media/users/3/146628/isolated/preview/0f613df3b068c62c8ab2ef9cc8a4c352-blue-post-it-note-by-vexels.png);
     background-position:center;
     background-repeat: no-repeat;
-    margin: -30px;
+    margin: 30px;
     
 }
 
