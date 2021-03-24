@@ -56,7 +56,8 @@ li{
     background-image: url(https://images.vexels.com/media/users/3/146628/isolated/preview/0f613df3b068c62c8ab2ef9cc8a4c352-blue-post-it-note-by-vexels.png);
     background-position:center;
     background-repeat: no-repeat;
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: -100px;
     
 }
 
@@ -64,7 +65,32 @@ li{
     background-image: url(https://images.vexels.com/media/users/3/146692/isolated/preview/0dc55938e73bbcfb43cc747082fa5001-pink-post-it-note-by-vexels.png);
     background-position: center;
     background-repeat:no-repeat;
-        
+    margin-top:0px;
+    margin-bottom: -100px;
+}
+
+.exTitle{
+    margin:0px;
+}
+
+iframe{
+    width:130px;
+    height: 90px;
+}
+
+.grid-container1{
+    display:inline-grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-container2{
+    display:inline-grid;
+    grid-template-columns:auto auto auto;
+}
+
+.grid-container3{
+    display:inline-grid;
+    grid-template-columns:auto auto;
 }
 
 .thoughts{
