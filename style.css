@@ -7,12 +7,22 @@
 
 
 }
-
+.hp{
+    font-size: 20px;
+}
 .jennifer{
     font-size: 60px;
 }
 
-
+a:link{
+    color: black;
+}
+a:hover{
+    color: white; 
+}
+a:visited{
+    color: black;
+}
 body{
     background-image: url(https://i.pinimg.com/originals/ba/76/38/ba76386166a96aaeb9ebe182cf7fc46f.jpg);
     background-size: cover;
@@ -26,23 +36,23 @@ body{
 
 p{
     text-align: left;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 
 li{
     text-align: left;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 
 .intro{
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 .title{
     background-image: url(https://images.vexels.com/media/users/3/146677/isolated/preview/89dd18addc21a52b8020536603057dfd-green-post-it-note-by-vexels.png);
     background-position: center;
     background-repeat: no-repeat;
-   
+   margin-bottom: -50px;
 }
 
 .presentation{
@@ -50,22 +60,23 @@ li{
     background-position: center;
     background-repeat: no-repeat;
     line-height: 15px;
+    background-size: 600px;
 }
 
 .projects{
     background-image: url(https://images.vexels.com/media/users/3/146628/isolated/preview/0f613df3b068c62c8ab2ef9cc8a4c352-blue-post-it-note-by-vexels.png);
     background-position:center;
     background-repeat: no-repeat;
-    margin-top: 30px;
     margin-bottom: -100px;
+    background-size: 600px
     
 }
 
 .exercises{
     background-image: url(https://images.vexels.com/media/users/3/146692/isolated/preview/0dc55938e73bbcfb43cc747082fa5001-pink-post-it-note-by-vexels.png);
+    background-size: 700px;
     background-position: center;
     background-repeat:no-repeat;
-    margin-top:0px;
     margin-bottom: -100px;
 }
 
@@ -74,13 +85,13 @@ li{
 }
 
 iframe{
-    width:130px;
-    height: 90px;
+    width:180px;
+    height: 130px;
 }
 
 .grid-container1{
     display:inline-grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
 }
 
 .grid-container2{
@@ -90,7 +101,7 @@ iframe{
 
 .grid-container3{
     display:inline-grid;
-    grid-template-columns:auto auto;
+    grid-template-columns:auto auto auto;
 }
 
 .thoughts{
@@ -98,4 +109,5 @@ iframe{
     background-position: center;
     background-repeat:no-repeat;
     line-height: 15px;
+    margin-top: 10px;
 }
